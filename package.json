@@ -1,0 +1,19 @@
+{
+  "name": "web-server",
+  "version": "0.0.1",
+  "description": "Proyectode web-server para NodeJS",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "CM",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "env-var": "^7.5.0",
+    "express": "^5.1.0"
+  }
+}
